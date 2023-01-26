@@ -1,0 +1,150 @@
+/* ****************************************** */
+
+/*            Header Section        */
+
+/* ****************************************** */
+
+.header {
+  padding: 2rem 4.8rem;
+  background-color: #3bc9db;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav .logo img {
+  width: 50%;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.main-nav-list li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6.4rem;
+}
+.main-nav-list .main-link.cart {
+  color: #087f5b;
+}
+
+/* ****************************************** */
+
+/*            Hero Section        */
+
+/* ****************************************** */
+
+.hero-section {
+  padding: 3.2rem 6.4rem 4.8rem 6.4rem;
+  background-color: #3bc9db;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+/* ****************************************** */
+
+/*            Categories Section        */
+
+/* ****************************************** */
+
+.categories-section {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+}
+
+.categories-section img {
+  width: 90%;
+  transition: 0.5s linear;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.categories-section img:hover {
+  box-shadow: 1.5rem 2.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+/* ****************************************** */
+
+/*            Feature Products Section        */
+
+/* ****************************************** */
+
+.feature-products {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+}
+
+.feature-products .heading-tertiary {
+  display: inline-block;
+  border-bottom: 3px solid #087f5b;
+}
+
+.feature-products .products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feature-products i {
+  color: #087f5b;
+  font-size: 1rem;
+}
+
+/* ****************************************** */
+
+/*            Latest Products Section        */
+
+/* ****************************************** */
+
+.latest-products {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+}
+
+/* ****************************************** */
+
+/*            Watch Section        */
+
+/* ****************************************** */
+
+.main-product-section {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+  background-color: #39997c;
+}
+
+.main-product-section .products-description {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.cta-btn .btn {
+  background-color: #054c37;
+}
+
+.products-description .heading-tertiary {
+  color: #fff;
+}
+
+.products-description .text-description {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2;
+}
