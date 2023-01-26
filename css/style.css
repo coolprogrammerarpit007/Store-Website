@@ -141,10 +141,125 @@
 
 .products-description .heading-tertiary {
   color: #fff;
+  font-size: 7.4rem;
 }
 
 .products-description .text-description {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 2;
+}
+
+/* ****************************************** */
+
+/*            Testimonial Section       */
+
+/* ****************************************** */
+
+.testimonial-section {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+  transition: 0.7s all;
+  /* width: 90%; */
+  padding: 2rem 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.testimonial:hover {
+  box-shadow: 1rem 2.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.testimonial .text-description {
+  line-height: 2;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.testimonial-section picture img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+picture p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* ****************************************** */
+
+/*            Logos Section       */
+
+/* ****************************************** */
+
+.section-logos {
+  padding: 4.8rem 6.4rem 9.6rem 6.4rem;
+}
+
+.logos img {
+  filter: blur(50%);
+  opacity: 50%;
+  transition: 0.7s all;
+  cursor: pointer;
+}
+
+.logos img:hover {
+  filter: blur(0);
+  opacity: 100%;
+}
+
+/* ****************************************** */
+
+/*            Footer Section       */
+
+/* ****************************************** */
+
+.footer {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  background-color: #000;
+}
+
+.footer .container {
+  align-items: center;
+}
+
+.footer .footer-des {
+}
+
+.footer-des .download-app {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.footer-des .download-app img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.footer .footer-des:nth-child(2) {
+  align-self: start;
+}
+
+.footer .footer-des:nth-child(3) {
+  align-self: start;
+}
+.footer .footer-des:nth-child(4) {
+  align-self: start;
+}
+
+.footer .text-description {
+  line-height: 2.4;
 }

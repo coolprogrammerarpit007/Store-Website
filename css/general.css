@@ -126,6 +126,12 @@ img {
 .mt-40 {
   margin-top: 4rem;
 }
+.mt-50 {
+  margin-top: 5rem;
+}
+.mt-60 {
+  margin-top: 6rem;
+}
 
 .container {
   max-width: 120rem;
@@ -159,7 +165,7 @@ img {
 }
 .grid--col-3 {
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 1.6rem; */
+  gap: 1.6rem;
 }
 .grid--col-4 {
   grid-template-columns: repeat(4, 1fr);
